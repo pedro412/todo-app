@@ -1,40 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Todo App</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="center mt-2">
-        <main class="main-container">
-            <header class="center">
-                <h1>Todo App o Lista de tareas</h1>
-            </header>
+      <main class="main-container">
+        <header class="center">
+          <h1>Todo App o Lista de tareas</h1>
+        </header>
 
-            <div class="wrapper">
-                <section class="search">
-                    <input class="grey-border" type="text">
-                    <button type="button">➕</button>
-                </section>
+        <div class="wrapper">
+          <section class="search">
+            <input id="search" class="grey-border" type="text" />
+            <button id="addButton" type="button">➕</button>
+          </section>
 
-                <ul class="list mt-1">
-                    <li class="list-item grey-border hoverable">
-                        <input id="item" type="checkbox">
-                        <label for="item" class="hoverable">Lorem ipsum dolor sit amet.</label>
-                        <span>🗑️</span>
-                    </li>
-                    <li class="list-item grey-border hoverable">
-                        <input id="item2" type="checkbox">
-                        <label for="item2" class="hoverable">Lorem ipsum dolor sit amet.</label>
-                        <span>🗑️</span>
-                    </li>
-                </ul>
-            </div>
-        </main>
+          <ul id="lista" class="list mt-1"></ul>
+        </div>
+      </main>
     </div>
-</body>
-
+  </body>
 </html>
